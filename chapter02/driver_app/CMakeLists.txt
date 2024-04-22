@@ -20,7 +20,7 @@ target_link_libraries(
   ch2_driver_application PRIVATE ch2_framework_component1 ch2_framework_component2
 )# Link target against ch2_framework_component1 and ch2_framework_component2
 
-target_compile_features(ch2_driver_application PUBLIC cxx_std_11)
+target_compile_features(ch2_driver_application PUBLIC cxx_std_20)
 
 install(
   TARGETS ch2_driver_application
